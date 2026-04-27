@@ -1,0 +1,17 @@
+main.py
+├── 中文渲染系统        ← PIL 批量绘字
+├── 坐标平滑系统        ← 消除手抖
+├── 手部识别系统        ← MediaPipe Tasks API
+├── 素材加载           ← 图片/音效读取
+├── 游戏实体类
+│   ├── Fruit          ← 普通水果
+│   ├── MultiFruit     ← 西瓜/火龙果（8片）
+│   ├── Bomb           ← 普通/致命炸弹
+│   ├── SlashEffect    ← 刀光特效
+│   ├── JuiceEffect    ← 汁水特效
+│   └── ComboEffect    ← 连击特效
+├── 游戏逻辑类
+│   ├── Game           ← 单人/双手模式
+│   ├── PKHalf         ← PK半屏逻辑
+│   └── PKGame         ← PK总控制器
+└── 选择界面 + 主循环

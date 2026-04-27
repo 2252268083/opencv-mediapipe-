@@ -1,0 +1,7 @@
+opencv-python
+mediapipe
+numpy
+pygame
+cvzone
+pyyaml
+python-dotenv

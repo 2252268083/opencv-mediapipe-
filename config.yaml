@@ -1,0 +1,13 @@
+game:
+  window:
+    width: 1280
+    height: 720
+  difficulty:
+    spawn_interval: 25
+    bomb_chance: 0.2
+    multi_fruit_chance: 0.15
+  rules:
+    max_missed: 10
+    max_bombs: 3
+resources:
+  assets_path: "qieshuiguo"
